@@ -1,0 +1,49 @@
+body {
+    background-color: #D6EAF8 ;
+ }
+
+ img {
+    width: 40%;
+    height: auto;
+    margin-top: 3%;
+}
+
+ table {
+    margin: 100px;
+  }
+
+  td {
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 50px;
+  
+  }
+
+  .vert {
+    border-left: 8px solid #5DADE2;
+    border-right: 8px solid #5DADE2;
+    
+  }
+
+  .hori {
+    border-top: 8px solid #5DADE2;
+    border-bottom: 8px solid #5DADE2;
+  }
+
+  .play-again {
+    background-image: url("../images/play-game-button-png-7.png");
+    width: 350px;
+    height: 130px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #EDF0E8;
+}
+   
+
+
+  
