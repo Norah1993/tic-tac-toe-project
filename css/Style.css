@@ -1,49 +1,54 @@
 body {
-    background-color: #D6EAF8 ;
- }
-
- img {
-    width: 40%;
-    height: auto;
-    margin-top: 3%;
+  background-color: #D6EAF8 ;
+  height:100%;
+  width: 100%;
 }
 
- table {
-    margin: 100px;
-  }
+img {
+  width: 40%;
+  height: auto;
+  margin-top: 3%;
+}
 
-  td {
-    width: 160px;
-    height: 160px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 50px;
+table {
+  margin: 10px;
+}
+
+td {
+  width: 160px;
+  height: 110px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.vert {
+  border-left: 8px solid #5DADE2;
+  border-right: 8px solid #5DADE2;
   
-  }
+}
 
-  .vert {
-    border-left: 8px solid #5DADE2;
-    border-right: 8px solid #5DADE2;
-    
-  }
+.hori {
+  border-top: 8px solid #5DADE2;
+  border-bottom: 8px solid #5DADE2;
+}
 
-  .hori {
-    border-top: 8px solid #5DADE2;
-    border-bottom: 8px solid #5DADE2;
-  }
-
-  .play-again {
-    background-image: url("../images/play-game-button-png-7.png");
-    width: 350px;
-    height: 130px;
-    margin: 0;
-    cursor: pointer;
+.play-again {
+  background-image: url("../images/play-game-button-png-7.png");
+  width: 270px;
+  height: 102px;
+  margin: 0;
+  cursor: pointer;
+  background-size:cover;
 }
 
 .cell:hover {
-  background-color: #EDF0E8;
+background-color: #FFFDFD ;
 }
-   
-
-
-  
+ 
+.cell {
+  font-family: 'Frijole';
+  font-size: 60px;
+  color :#858383;  
+}
